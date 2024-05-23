@@ -1,0 +1,31 @@
+{
+  "name": "gridsystemsass",
+  "version": "1.0.0",
+  "description": "Code grid system bằng Sass",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "watch": "sass scss:assets/css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TranTruong753/Grid_System_Sass.git"
+  },
+  "keywords": [
+    "grid",
+    "system"
+  ],
+  "author": "tran truong sgu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TranTruong753/Grid_System_Sass/issues"
+  },
+  "homepage": "https://github.com/TranTruong753/Grid_System_Sass#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
